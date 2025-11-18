@@ -40,7 +40,7 @@ services:
       MYSQL_USER: moodleuser
       MYSQL_PASSWORD: moodlepass
     volumes:
-      - db_data:/var/lib/mysql
+      - ./db_data:/var/lib/mysql
     
 
   web:
